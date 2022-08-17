@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.card-row{
+    width:100%;
+    display: flex;
+    margin-bottom: 0.2em;
+}
+
+.card-row-details {
+    background-color: #EEE;
+    flex-grow: 1;
+    padding: 0.4em 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 0.2em;
+    cursor: pointer;
+}
+
+.card-row-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-row-action a{
+    display: block;
+    cursor: pointer;
+    padding: 1em;
+    background-color: #EF5350;
+    color:white;
+}
